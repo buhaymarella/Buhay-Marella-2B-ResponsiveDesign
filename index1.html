@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<title>Animal Adoption Website</title>
+</head>
+<body>
+	<section class="banner">
+		<nav>
+			<a href="index1.html"><img src="images/LOGO.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i> 
+				<ul>
+					<li><a href="index1.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contacts.html">Contacts</a></li>
+					<li><a href="#">Blogs</a></li>
+					<li><a href="#">FAQs</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+<div class="text-box">
+	<h1>Save the lives of every Animal</h1>
+	<p> Imagine what you can do to save a life of an innocent animal.</p>
+	<a href=""class="hero-btn">Visit us to know more.</a>
+</div>
+	</section>
+
+<!----course--->
+<section class="mission">
+	<h1 style="color: black;"> What does FUR FOUNDATION is all about?</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	<div class="row">
+		<div class="mission-col">
+			<h3>Overview</h3>
+			<p>This is a sample website for rescuing, adoptiong, and giving healthcare for abandoned animals on the street.</p>
+		</div>
+		<div class="mission-col">
+			<h3>Brief History</h3>
+			<p>Fur Foundation, was created in the year 2022, when the founders noticed that <br> there are a lot of street animals who needed an intensive care and forever home.</p>
+		</div>
+		<div class="mission-col">
+			<h3>Our Goals</h3>
+			<p>One of our Main goal, is to find a forever home for these animals that didn't experienced being loved. <br>It is also our goal to give these rescued animals an necessary and appropriate care.</p>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="services">
+	<h1 style="color: black;">Things that we can do to help</h1>
+	<p>Your small action can give a huge impact to a life of an innocent animal.</p>
+
+	<div class="row">
+		<div class="services-col">
+			<img src="images/image1.jpg">
+			<h3>DONATE</h3>
+			<p>Any amount can be considered a big help, if you are extremely genuine to help</p>
+			<a href=""class="hero-btn" style="margin-left: 100px; color: black; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px;">Donate Now</a>
+		</div>
+		<div class="services-col">
+			<img src="images/image2.jpg" style="height: 60%;">
+			<h3>ADOPT</h3>
+			<p>Instead of buying, why not give an street animal a forever healthy and loving forever home.</p>
+			<a href=""class="hero-btn" style="margin-left: 100px; color: black; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px;">Adopt Now</a>
+		</div>
+		<div class="services-col">
+			<img src="images/image3.jpg">
+			<h3>BECOME A VOLUNTEER</h3>
+			<p>Take part to become one of our volunteers, and rescuers. Your action will be a great help to us!</p>
+			<a href=""class="hero-btn" style="margin-left: 100px; color: black; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px;">Be our Volunteer</a>
+		</div>
+	</div>
+</section>
+<!---Javascript toggle menu---->
+<script>
+	var navLinks = document.getElementById('navLinks');
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+<section class="cta">
+	<h1>Help our fur friends<br> Anywhere from the World</h1>
+	<a href="contacts.html" class="hero-btn">Contact Us</a>
+</section>
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>This website is intended to be sample design only. The name, logo, address, and other contents provided and used does not exist.</p>
+
+	<div class="icons">
+		<img src="images/facebook.png">
+		<img src="images/instagram.png">
+		<img src="images/twitter-sign.png">
+		<img src="images/linkedin.png">
+	</div>
+	<p>2022 &copy;   Marella Buhay. All Rights Reserved.</p>
+</section>
+
+
+
+
+
+</body>
+</html>
